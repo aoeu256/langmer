@@ -1,0 +1,55 @@
+
+
+
+@media all and (orientation:portrait) {  
+
+	.gridcol {
+		border: thin 1px solid red !important;
+		margin: 0px !important;
+	} 
+
+	.ui-btn-inner {
+		padding-right: 0 !important;
+	}
+
+	a.item {
+		height: 24px !important;
+	}
+
+}  
+@media all and (orientation:landscape) {  
+    .ui-title {
+    	display: inline !important;
+    	margin: 2px 10% 2px 10% !important;
+
+    }
+
+	.ui-content {
+		height: 100%
+	}
+
+	.ui-header {height: 5%; !important}
+	.ui-content {height: 100%; !important}
+		
+
+	.gridcol {
+		height: 100%;
+	}
+
+	.gridcol ul {
+		margin-top: 10 !important;
+		margin-bottom: 10 !important;
+		height: 100%;
+	}
+
+	#skipbut {
+		margin-top: 5px !important;
+		margin-bottom: 5px !important;
+	}
+
+	a.item {
+		height: 100% !important;
+	}
+}  
+
+
